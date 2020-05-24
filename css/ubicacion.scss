@@ -1,0 +1,57 @@
+.ubicacion{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h2{
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+.contacto{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    h2{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    p{
+        width: 80%;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .contacto-btn{
+        width: 100%;
+        margin-top: -5px;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+

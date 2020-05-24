@@ -1,0 +1,18 @@
+@import "header.scss";
+@import "acerca-de.scss";
+@import "trabajos.scss";
+@import "ubicacion.scss";
+@import "footer.scss";
+@import "mediaquerys.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
